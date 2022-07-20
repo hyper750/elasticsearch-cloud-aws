@@ -19,7 +19,8 @@
             <useProjectArtifact>true</useProjectArtifact>
             <useTransitiveFiltering>true</useTransitiveFiltering>
             <includes>
-                <include>com.amazonaws:aws-java-sdk</include>
+                <include>com.amazonaws:aws-java-sdk-ec2</include>
+                <include>com.amazonaws:aws-java-sdk-s3</include>
                 <include>joda-time:joda-time</include>
                 <include>commons-codec:commons-codec</include>
                 <include>com.fasterxml.jackson.core:jackson-core</include>
